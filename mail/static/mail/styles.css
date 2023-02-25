@@ -1,0 +1,145 @@
+textarea {
+    min-height: 400px;
+}
+
+/* Style for emails in inbox */
+.email {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .email:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .email strong {
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Style for buttons */
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+  }
+  
+  .btn-outline-primary {
+    background-color: transparent;
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+  .buttonra {
+    margin-top: 10px;
+  }
+
+  .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .email-sender {
+    margin-right: 70px;
+  }
+  
+  .email-subject {
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .email-timestamp {
+    font-size: 0.8rem;
+  }
+  
+  /* Style for the compose form */
+  #compose-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #compose-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #compose-form input[type="text"], #compose-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #compose-form textarea {
+    height: 150px;
+  }
+  
+  #compose-form button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  #compose-form button[type="submit"]:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+  
