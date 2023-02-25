@@ -12,7 +12,7 @@ Mail is a single-page email client application built using JavaScript, HTML, and
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/<username>/mail.git`
+1. Clone the repository: `git clone https://github.com/matheudev/mail.git`
 2. Navigate to the repository: `cd mail`
 3. Start the web server: `python manage.py runserver`
 
